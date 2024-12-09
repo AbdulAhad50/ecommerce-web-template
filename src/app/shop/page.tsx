@@ -6,7 +6,7 @@ import Card from '../components/card'
 import Sut from '../components/suprt';
 
 
-const pageShop = () => {
+const PageShop = () => {
 
   const [Bg, setBg] = useState(false)
   const [Bg2, setBg2] = useState(true)
@@ -112,4 +112,4 @@ const pageShop = () => {
   )
 }
 
-export default pageShop
+export default PageShop

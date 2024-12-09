@@ -1,5 +1,3 @@
-import React from 'react'
-
 const Int = ({label}:{label:string}) => {
   return (
     <div className=' flex flex-col gap-3'>
