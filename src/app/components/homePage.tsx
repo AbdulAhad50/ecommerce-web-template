@@ -53,11 +53,11 @@ const HomePage = () => {
           <div className="grid grid-cols-3 grid-rows-2 gap-[30px]">
               <Card bg="bg-red-500" text="30%" description="Night lamp"  productName="Syltherine" price="300000" discount="20000" image="image1.svg"/>
 
-              <Card  description="Night lamp"  productName="Syltherine" price="300000" discount="20000" image="image2.svg"/>
+              <Card  description="Night lamp" productName="Syltherine" price="300000" discount="20000" image="image2.svg" bg={''} text={''}/>
 
               <Card bg="bg-red-500" text="30%" description="Night lamp"  productName="Syltherine" price="300000" discount="20000" image="image3.svg"/>
 
-              <Card  description="Night lamp"  productName="Syltherine" price="300000" discount="20000" image="image4.svg"/>
+              <Card  description="Night lamp" productName="Syltherine" price="300000" discount="20000" image="image4.svg" bg={''} text={''}/>
 
               <Card bg="bg-red-500" text="30%" description="Night lamp"  productName="Syltherine" price="300000" discount="20000" image="image1.svg"/>
 
