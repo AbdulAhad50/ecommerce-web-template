@@ -5,7 +5,7 @@ interface HeroProps {
   category: string;
 }
 
-const Hero = ({ name, category }: HeroProps) => {
+export const Hero = ({ name, category }: HeroProps) => {
   return (
     <div className='relative flex justify-center items-center mt-12 w-[1440px] h-[316px]'>
       <div className="heroSection flex flex-col items-center justify-center blur-[2px]">

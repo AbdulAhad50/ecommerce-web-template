@@ -1,11 +1,11 @@
 import React from 'react'
-import Hero from '../components/Hero'
+import {Hero} from '../components/Hero'
 import Image from 'next/image'
 
 const Shop = () => {
   return (
     <div className='m-w-[1440px]'>
-        <Hero name="Shop" category="shop" image="logos.svg"/>
+        <Hero name="Shop" category="shop"/>
         <div className='bgFilter mt-[50px] flex items-center justify-between w-[100%] h-[100px] px-[100px]'>
                 <div className='flex gap-[18px]'>
                     <Image src="/bar.svg" alt='filter' width={19.05} height={16.67}/>
