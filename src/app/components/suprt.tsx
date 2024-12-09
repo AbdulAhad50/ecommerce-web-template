@@ -1,4 +1,3 @@
-import { GiTrophyCup } from "react-icons/gi";
 
 import Image from "next/image";
 

@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from 'react'
 import Shop from './shop'
 import Card from '../components/card'
-import { GiTrophyCup } from "react-icons/gi";
+
 import Sut from '../components/suprt';
 
 

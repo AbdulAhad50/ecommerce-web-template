@@ -1,5 +1,5 @@
 import React from 'react'
-import { BiStrikethrough } from 'react-icons/bi'
+
 
 const Card = ({bg,text, price, discount, productName, description, image}:any) => {
   return (
