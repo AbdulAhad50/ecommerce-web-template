@@ -53,26 +53,26 @@ const PageShop = () => {
         <Shop/>
 
         <div className='mt-[20px] px-[100px] gap-[70px] grid grid-cols-3 grid-rows-4'>
-            <Card productName="Sofa " image="image2.svg" price="400000" discount="Rs.20000" description="This is Sofa" bg="bg-red-500" text="-30%" className="col-start-1" />
+            <Card productName="Sofa " image="image2.svg" price="400000" discount="Rs.20000" description="This is Sofa" bg="bg-red-500" text="-30%"  />
 
-            <Card productName="Sofa " image="image4.svg" price="400000" discount="Rs.20000" description="This is Sofa" bg=" " className="col-start-1" text={''}/>
+            <Card productName="Sofa " image="image4.svg" price="400000" discount="Rs.20000" description="This is Sofa" bg=" "  text={''}/>
 
-            <Card productName="Sofa " image="image3.svg" price="400000" discount="Rs.20000" description="This is Sofa" bg="bg-blue-500" className="col-start-1" text="new"/>
-            <Card productName="Sofa " image="image1.svg" price="400000" discount="Rs.20000" description="This is Sofa" bg="bg-red-500" text="-30%" className="col-start-1" />
+            <Card productName="Sofa " image="image3.svg" price="400000" discount="Rs.20000" description="This is Sofa" bg="bg-blue-500"  text="new"/>
+            <Card productName="Sofa " image="image1.svg" price="400000" discount="Rs.20000" description="This is Sofa" bg="bg-red-500" text="-30%" />
 
-            <Card productName="Sofa " price="400000" discount="Rs.20000" image="image3.svg" description="This is Sofa" bg=" " className="col-start-1" text={''}/>
+            <Card productName="Sofa " price="400000" discount="Rs.20000" image="image3.svg" description="This is Sofa" bg=" "  text={''}/>
 
-            <Card productName="Sofa " price="400000" discount="Rs.20000" image="image4.svg" description="This is Sofa"  bg="bg-blue-500" className="col-start-1" text="new"/>
-            <Card productName="Sofa " price="400000" discount="Rs.20000" image="image2.svg" description="This is Sofa"  bg="bg-red-500" text="-30%" className="col-start-1" />
+            <Card productName="Sofa " price="400000" discount="Rs.20000" image="image4.svg" description="This is Sofa"  bg="bg-blue-500"  text="new"/>
+            <Card productName="Sofa " price="400000" discount="Rs.20000" image="image2.svg" description="This is Sofa"  bg="bg-red-500" text="-30%" />
 
-            <Card productName="Sofa " price="400000" discount="Rs.20000" image="image3.svg" description="This is Sofa" bg=" " className="col-start-1" text={''}/>
+            <Card productName="Sofa " price="400000" discount="Rs.20000" image="image3.svg" description="This is Sofa" bg=" "  text={''}/>
 
-            <Card productName="Sofa " price="400000" discount="Rs.20000" image="image4.svg" description="This is Sofa" bg="bg-blue-500" className="col-start-1" text="new"/>
-            <Card productName="Sofa " price="400000" discount="Rs.20000" image="image1.svg" description="This is Sofa" bg="bg-red-500" text="-30%" className="col-start-1" />
+            <Card productName="Sofa " price="400000" discount="Rs.20000" image="image4.svg" description="This is Sofa" bg="bg-blue-500"  text="new"/>
+            <Card productName="Sofa " price="400000" discount="Rs.20000" image="image1.svg" description="This is Sofa" bg="bg-red-500" text="-30%"  />
 
-            <Card productName="Sofa " price="400000" discount="Rs.20000" description="This is Sofa" image="image3.svg" bg=" " className="col-start-1" text={''}/>
+            <Card productName="Sofa " price="400000" discount="Rs.20000" description="This is Sofa" image="image3.svg" bg=" " text={''}/>
 
-            <Card productName="Sofa " price="400000" discount="Rs.20000" description="This is Sofa" bg="bg-blue-500"  className="col-start-1" text="new" image="image1.svg"/>
+            <Card productName="Sofa " price="400000" discount="Rs.20000" description="This is Sofa" bg="bg-blue-500"   text="new" image="image1.svg"/>
 
 
 
