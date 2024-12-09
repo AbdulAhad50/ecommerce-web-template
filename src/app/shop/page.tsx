@@ -8,12 +8,12 @@ import Sut from '../components/suprt';
 
 const pageShop = () => {
 
-  let [bg, setBg] = useState(false)
-  let [bg2, setBg2] = useState(true)
-  let [bg3, setBg3] = useState(true)
+  const [Bg, setBg] = useState(false)
+  const [Bg2, setBg2] = useState(true)
+  const [Bg3, setBg3] = useState(true)
 
   function color(){
-    if(bg){
+    if(Bg){
       setBg(false)
       setBg2(true)
       setBg3(true)
@@ -22,7 +22,7 @@ const pageShop = () => {
     }
   }
   function color2(){
-    if(bg2){
+    if(Bg2){
       setBg2(false)
       setBg(true)
       setBg3(true)
@@ -33,7 +33,7 @@ const pageShop = () => {
   }
 
   function color3(){
-    if(bg3){
+    if(Bg3){
       setBg3(false)
       setBg(true)
       setBg2(true)
@@ -45,7 +45,7 @@ const pageShop = () => {
 
   useEffect(()=>{
 
-  },[bg3,bg2,bg])
+  },[Bg3,Bg2,Bg])
 
 
   return (
@@ -80,15 +80,15 @@ const pageShop = () => {
 
 
         <div className='flex justify-center text-center mt-[50px] mx-[auto] gap-[38px] w-[392px] h-[90px] p-[30px] mb-[100px]'>
-            <button className={`${bg? "bg-pink-100" : "bg-yellow-600"}  w-[60px] h-[60px] rounded-[10px]`} onClick={color}>
+            <button className={`${Bg? "bg-pink-100" : "bg-yellow-600"}  w-[60px] h-[60px] rounded-[10px]`} onClick={color}>
                   1
             </button>
 
-            <button className={`${bg2? "bg-pink-100" : "bg-yellow-600"}  w-[60px] h-[60px] rounded-[10px]`} onClick={color2}>
+            <button className={`${Bg2? "bg-pink-100" : "bg-yellow-600"}  w-[60px] h-[60px] rounded-[10px]`} onClick={color2}>
                   2
             </button>
 
-            <button className={`${bg3? "bg-pink-100" : "bg-yellow-600"} w-[60px] h-[60px] rounded-[10px]`} onClick={color3}>
+            <button className={`${Bg3? "bg-pink-100" : "bg-yellow-600"} w-[60px] h-[60px] rounded-[10px]`} onClick={color3}>
                   3
             </button>
 
