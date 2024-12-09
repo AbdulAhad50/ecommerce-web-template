@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Int = ({label, place}:any) => {
+const Int = ({label}:any) => {
   return (
     <div className=' flex flex-col gap-3'>
         <label htmlFor="">{label}</label>
