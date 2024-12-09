@@ -1,12 +1,11 @@
-import React from 'react'
-
+import Image from "next/image"
 
 const Card = ({bg,text, price,className, discount, productName, description, image}:{bg:string,text:string, price:string, discount:string, productName:string, className:string, description:string, image:string}) => {
   return (
     <div className='relative w-[285px] h-[446px]'>
         <div className='flex relatives w-[285px] h-[301px]'> 
 
-            <img src={`/card/${image}`} alt="" className='imgCard'/>
+            <Image src={`/card/${image}`} alt="" className='imgCard' width={285} height={0}/>
             <div className={`text-white absolute disc flex justify-center items-center ${bg}`}>
                 {text}
             </div>
