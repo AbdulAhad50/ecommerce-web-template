@@ -1,5 +1,3 @@
-
-
 import HomePage from "./components/homePage";
 import Footer from "./components/Footer";
 

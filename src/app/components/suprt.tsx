@@ -1,6 +1,5 @@
 
 import Image from "next/image";
-
 const Sut = ({achievement,Icons,achievementL}:any) => {
 
   return (

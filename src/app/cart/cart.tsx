@@ -1,6 +1,6 @@
 import Image from "next/image"
 import { FaTrash } from "react-icons/fa";
-import Hero from "../components/Hero";
+
 
 
 
