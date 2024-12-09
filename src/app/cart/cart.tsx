@@ -1,10 +1,6 @@
 import Image from "next/image"
 import { FaTrash } from "react-icons/fa";
 
-
-
-
-
 const Cart = () => {
   return (
 
