@@ -1,7 +1,7 @@
 import React from 'react'
 
 
-const Card = ({bg,text, price, discount, productName, description, image}:any) => {
+const Card = ({bg,text, price,className, discount, productName, description, image}:{bg:string,text:string, price:string, discount:string, productName:string, className:string, description:string, image:string}) => {
   return (
     <div className='relative w-[285px] h-[446px]'>
         <div className='flex relatives w-[285px] h-[301px]'> 
